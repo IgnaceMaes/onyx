@@ -22,6 +22,7 @@ import {
 } from "@opal/logos";
 import { ZAIIcon } from "@/components/icons/icons";
 import { LLMProviderName } from "@/lib/languageModels/types";
+import type { ProviderEntry } from "@/lib/languageModels/types";
 import OpenAIModal from "@/sections/modals/languageModels/OpenAIModal";
 import AnthropicModal from "@/sections/modals/languageModels/AnthropicModal";
 import OllamaModal from "@/sections/modals/languageModels/OllamaModal";
@@ -37,7 +38,6 @@ import OpenAICompatibleModal from "@/sections/modals/languageModels/OpenAICompat
 import NebiusTokenfactoryModal from "@/sections/modals/languageModels/NebiusTokenfactoryModal";
 import PortkeyModal from "@/sections/modals/languageModels/PortkeyModal";
 import VercelAIGatewayModal from "@/sections/modals/languageModels/VercelAIGatewayModal";
-import type { ProviderEntry } from "@/lib/languageModels/types";
 
 // ─── Text (LLM) providers ────────────────────────────────────────────────────
 
